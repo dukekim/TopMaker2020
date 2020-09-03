@@ -1,9 +1,8 @@
 # Pro Makers의 인간과 함께 하는 4족 로봇
 
 
-Project 설명
+Screenshots
 ------------
-
 
 <div>	
 	
