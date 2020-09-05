@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hackton_Tizen_01.MainPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="WhiteSmoke" Padding="20">
+            <BoxView Color="Gray" HeightRequest="4"/>
+            <Label Text="Robot Action" FontSize="19" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+            <BoxView Color="Yellow"  HeightRequest="4"/>
+            <Grid>
+                <!--Label Text="fc:f5:c4:54:8f:e2" FontSize="19" FontAttributes="Bold" HorizontalTextAlignment="Center" /-->
+                <Label x:Name="lbl_BLE_status" Text="Bluetooth ???" FontSize="22" Grid.Row="0" Grid.Column="0" BackgroundColor="#ffffff" HorizontalTextAlignment="Center" />
+                <!-- -<Button FontAttributes="Bold" FontSize="20" Text="Connect" Grid.Row="0" Grid.Column="0" /> -->
+                <Button FontAttributes="Bold" FontSize="20" Text="BtnConnection" Grid.Row="0" Grid.Column="1"  Clicked="BtnConnection_Clicked" />
+            </Grid>
+            <BoxView Color="Yellow"  HeightRequest="4"/>
+            <Grid>
+                <Button FontAttributes="Bold" FontSize="20" Text="greeting" Clicked="Btn_00_khi"  Grid.Row="0" Grid.Column="0" />
+                <Button FontAttributes="Bold" FontSize="20" Text="str" Clicked="Btn_01_kstr"  Grid.Row="0" Grid.Column="1" />
+                <Button FontAttributes="Bold" FontSize="20" Text="sit" Clicked="Btn_02_ksit"  Grid.Row="0" Grid.Column="2" />
+
+                <Button FontAttributes="Bold" FontSize="20" Text="butt up" Clicked="Btn_10_kbuttUp"  Grid.Row="1" Grid.Column="0" />
+                <Button FontAttributes="Bold" FontSize="20" Text="push up" Clicked="Btn_11_kpu"  Grid.Row="1" Grid.Column="1" />
+                <Button FontAttributes="Bold" FontSize="20" Text="pee" Clicked="Btn_12_kpee"  Grid.Row="1" Grid.Column="2" />
+
+                <Button FontAttributes="Bold" FontSize="20" Text="bound" Clicked="Btn_20_kbd"  Grid.Row="2" Grid.Column="0" />
+                <Button FontAttributes="Bold" FontSize="20" Text="dropped" Clicked="Btn_21_kdropped"  Grid.Row="2" Grid.Column="1" />
+                <Button FontAttributes="Bold" FontSize="20" Text="tb" Clicked="Btn_22_ktb"  Grid.Row="2" Grid.Column="2" />
+
+                <Button FontAttributes="Bold" FontSize="20" Text="vt" Clicked="Btn_30_kvt"  Grid.Row="3" Grid.Column="0" />
+                <Button FontAttributes="Bold" FontSize="20" Text="recover" Clicked="Btn_31_krc"  Grid.Row="3" Grid.Column="1" />
+                <!-- Button FontAttributes="Bold" FontSize="20" Text="Bu12" Grid.Row="3" Grid.Column="2" /-->
+            </Grid>
+            <BoxView Color="Yellow"  HeightRequest="4"/>
+            <Grid>
+                <Button FontAttributes="Bold" FontSize="20" Text="neutral standing" Clicked="Btn_kbalance"  Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" />
+                <Image Source="tizen.png"  Grid.Row="1" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" />
+                <Button FontAttributes="Bold" FontSize="20" Text="UP" Clicked="Btn_UP_kwk"  Grid.Row="1" Grid.Column="3" />
+                <Button FontAttributes="Bold" FontSize="20" Text="Left" Clicked="Btn_Left_kwkL"  Grid.Row="2" Grid.Column="2" />
+                <Button FontAttributes="Bold" FontSize="20" Text="Right" Clicked="Btn_Right_kwkR"  Grid.Row="2" Grid.Column="4" />
+                <Button FontAttributes="Bold" FontSize="20" Text="Down" Clicked="Btn_Down_kbk"  Grid.Row="3" Grid.Column="3" />
+            </Grid>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
