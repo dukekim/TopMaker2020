@@ -24,16 +24,15 @@
 
 ### Bluetooth 연동
 
-  App.xaml.cs
-  
-  https://github.com/Samsung/Tizen-CSharp-Samples/tree/master/Mobile/Lescanner 참조 하여 제작
-   
-
+  + App.xaml.cs  
+  + https://github.com/Samsung/Tizen-CSharp-Samples/tree/master/Mobile/Lescanner 참조 하여 제작
+  + 생각보다 Bluetooth참조  
+ 
 ### 4족 로봇 조작 UI
 
-<img src="https://user-images.githubusercontent.com/46912845/92306897-8cee8f00-efcd-11ea-9140-be0361e65c4d.jpg" width="70%"></img>
+  <img src="https://user-images.githubusercontent.com/46912845/92306897-8cee8f00-efcd-11ea-9140-be0361e65c4d.jpg" width="70%"></img>
 
-  MainPage.xaml 
-  MainPage.xaml.cs
+  + MainPage.xaml
+  + MainPage.xaml.cs
   
  
