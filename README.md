@@ -3,13 +3,13 @@
 
 ## Pro Makers (김도혁/유소연/강진호/이진)
 
-김도혁 : 팀장
+* 김도혁 : 팀장 ESP32 로봇 제작
 
-유소연 : 기획 및 동영상 제작 
+* 유소연 : 기획 및 동영상 제작 
 
-강진호 : Xamarin Forms 조작 UI 제작
+* 강진호 : Xamarin Forms 조작 UI 제작
 
-이  진 : 블루투스 연동
+* 이  진 : 블루투스 연동
 
 <img src="https://user-images.githubusercontent.com/46912845/92132926-ba5b0180-ee42-11ea-9239-3dd3329d8068.png" width="90%"></img>
 
@@ -36,4 +36,9 @@
   + MainPage.xaml
   + MainPage.xaml.cs
   
+ ## 보드 
  
+  * PI4   : Blooth를 통한 조작 화면 
+  * ESP32 : 4족 로봇
+
+
