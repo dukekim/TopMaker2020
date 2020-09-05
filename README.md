@@ -25,6 +25,8 @@
 
 4족 로봇 조작 UI
 
+<img src="https://user-images.githubusercontent.com/46912845/92306897-8cee8f00-efcd-11ea-9140-be0361e65c4d.jpg" width="70%"></img>
+
   MainPage.xaml 
   MainPage.xaml.cs
   
