@@ -1,8 +1,7 @@
 ## 시연 동영상
 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/embed/h0MOsyAalx4)
-
+[![Watch the video](https://blog.kakaocdn.net/dn/S4MUg/btqFmtCBF5C/zL99tRp5ubGxya3DU88JM0/img.png)](https://www.youtube.com/embed/h0MOsyAalx4)
 
 
 
